@@ -41,6 +41,7 @@ a:hover {
 .head {
     height: 10vh;
     line-height: 10vh;
+    margin-bottom: 8vh;
 }
 
 .head i {
@@ -55,4 +56,38 @@ a:hover {
 
 .head img {
     margin-top: 10px;
+}
+
+header {
+    background: #42c322ad;
+    padding: 15px 0 15px 0;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.5s ease-in-out;
+    background: white;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    padding: 0 20px 0 0;
 }
