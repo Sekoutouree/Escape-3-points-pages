@@ -26,6 +26,7 @@ a {
 
 a:hover {
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .flex1 {
@@ -47,4 +48,11 @@ a:hover {
     height: 30px;
     border-radius: 50%;
     background: #faf3e7;
+    text-align: center;
+    color: #42c322ad;
+    line-height: 30px;
+}
+
+.head img {
+    margin-top: 10px;
 }
