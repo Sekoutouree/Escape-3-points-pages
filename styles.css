@@ -132,15 +132,28 @@ header .sticky_logo {
     display: none;
 }
 
-/* header .sticky { 
-    z-index: 999;
+header.sticky .sticy_logo { 
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+}
+
+header.sticky {
+    z-index: 9999;
     position: fixed;
     width: 100%;
-    background: #266f14ad;
+    background: #313538;
+    transition: 0.5s;
+    height: 12vh;
     transition: 0.5s;
     top: 0;
     padding: 30px 0 0 0;
-} */
+}
+
+header.sticky ul li a {
+    color: white;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -149,6 +162,14 @@ header .sticky_logo {
     .header .head_contact, .logo {
         display: none;
     }
+
+    header.sticky {
+        height: 8vh;
+      }
+    
+      header.sticky .nav-menu {
+        background: #388226ad;
+      }
 
     .nav-menu {
         background: #388226ad;
@@ -168,9 +189,12 @@ header .sticky_logo {
         text-align: center;
         transition: 0.5s;
         z-index: 99;
+        width: 100%;
+        border-radius: 10px;
+        z-index: 99;
     }
 
-    .headeer .nav-menu {
+    .header.sticky .nav-menu {
         top: 5rem;
     }
 
@@ -197,6 +221,10 @@ header .sticky_logo {
 
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
-      }
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(45deg);
+    }
 }
 
