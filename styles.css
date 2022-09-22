@@ -115,7 +115,7 @@ header .head_contact {
 header .head_contact i {
     position: absolute;
     top: -29px;
-    left: -79px;
+    left: -200px;
     width: 80px;
     height: 80px;
     line-height: 80px;
@@ -127,3 +127,76 @@ header .head_contact i {
     border: 5px solid #6e4808ad;
     font-size: 30px;
 }
+
+header .sticky_logo {
+    display: none;
+}
+
+/* header .sticky { 
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    background: #266f14ad;
+    transition: 0.5s;
+    top: 0;
+    padding: 30px 0 0 0;
+} */
+
+
+@media only screen and (max-width: 768px) {
+
+    /* head */
+    .header .head_contact, .logo {
+        display: none;
+    }
+
+    .nav-menu {
+        background: #388226ad;
+    }
+
+    .navbar {
+        height: 5vh;
+        justify-content: space-between;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 11rem;
+        flex-direction: column;
+        background: #388226ad;
+        text-align: center;
+        transition: 0.5s;
+        z-index: 99;
+    }
+
+    .headeer .nav-menu {
+        top: 5rem;
+    }
+
+    .header ul li a {
+        color: white;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    header li {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+}
+
