@@ -58,8 +58,8 @@
             </div>
         </header>
         <script>
-            const hamburger = document.querySelector.(".hamburger");
-            const navMenu = document.querySelector.(".nav-menu");
+            const hamburger = document.querySelector(".hamburger");
+            const navMenu = document.querySelector(".nav-menu");
 
             hamburger.addEventListener ("click", mobilemenu);
 
@@ -69,10 +69,41 @@
             }
 
             window.addEventListener("scroll", function() {
-                var header = document.querySelector(header);
+                var header = document.querySelector("header");
                 header.classList.toggle("sticky", window.strollY > 0)
             })
         </script>
+
+        <section class="home" id="home">
+            <div class="container">
+                <h1>Make Memories</h1>
+                <p>Discover a paradise where you have fun and relax as much as you </p>
+                <div class="content grid">
+                    <div class="box">
+                        <span>ARRIVAL DATE</span>
+                        <input type="date" placeholder="29/12/2022">
+                    </div>
+                    <div class="box">
+                        <span>DEPARTURE DATE</span>
+                        <input type="date" placeholder="31/12/2022">
+                    </div>
+                    <div class="box">
+                        <span>ADULTS</span>
+                        <input type="date" placeholder="01">
+                    </div>
+                    <div class="box">
+                        <span>CHILDREN</span>
+                        <input type="date" placeholder="01">
+                    </div>
+                    <div class="box">
+                        <button class="flex">
+                            <span>Check Availabilty</span>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
   
 </body>
 
