@@ -228,3 +228,19 @@ header .sticky ul li a {
     }
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+}
+
+.home {
+    background-image: url("../img/escape3points-ecolodge.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
