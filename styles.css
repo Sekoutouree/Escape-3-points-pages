@@ -244,3 +244,36 @@ header .sticky ul li a {
     text-align: center;
 }
 
+.home h1 {
+    /* font-family: 'Great Vibes'; */
+    font-size: 100px;
+    color: #388226ad;
+    padding-top: 10px;
+}
+
+.home p {
+    color: rgb(49, 47, 47);
+    font-size: 30px;
+}
+
+.home .box {
+    background: white;
+}
+
+.home input {
+    margin-top: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    background: #388226ad;
+    color: #faf3e7;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
