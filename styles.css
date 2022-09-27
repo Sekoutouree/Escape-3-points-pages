@@ -41,7 +41,7 @@ a:hover {
 .head {
     height: 10vh;
     line-height: 10vh;
-    margin-bottom: 4vh;
+    margin-bottom: 6vh;
 }
 
 .head i {
@@ -132,7 +132,7 @@ header .sticky_logo {
     display: none;
 }
 
-header.sticky .sticy_logo { 
+header.sticky .sticky_logo { 
     display: block;
     width: 50px;
     height: 50px;
@@ -145,7 +145,7 @@ header.sticky {
     width: 100%;
     background: #313538;
     transition: 0.5s;
-    /* height: 12vh; */
+    height: 12vh;
     transition: 0.5s;
     top: 0;
     padding: 30px 0 0 0;
@@ -171,9 +171,9 @@ header .sticky ul li a {
         background: #388226ad;
      }
 
-    .nav-menu {
+    /* .nav-menu {
         background: #388226ad;
-    }
+    } */
 
     .navbar {
         height: 5vh;
