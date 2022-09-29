@@ -277,3 +277,12 @@ button {
     outline: none;
     border-radius: 30px;
 }
+
+button i {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+button span {
+    margin-top: 5px;
+}
