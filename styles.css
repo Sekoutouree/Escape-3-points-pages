@@ -328,6 +328,53 @@ h3 {
     margin-top: 20px;
 }
 
-.about {
-    
+.about .left {
+    padding: 20px;
+}
+
+p {
+    line-height: 30px;
+    color: #9f9f9f;
+    margin-bottom: 20px;
+    font-size: 15px;    
+}
+
+.about .right {
+    position: relative;
+}
+
+.about .right::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1c639a;
+    width: 92%;
+    height: 61vh;
+    z-index: -1;
+    margin: 50px;
+}
+
+.about::after {
+    content: '';
+    position: absolute;
+    top: -5;
+    left: 0;
+    background-image: url("/img/beach-bar-bottle-wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+}
+
+.about::before {
+    content: '';
+    position: absolute;
+    top: -5;
+    left: 0;
+    background-image: url("/img/beach-bar-bottle-wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
 }
