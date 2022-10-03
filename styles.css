@@ -232,7 +232,7 @@ header.sticky ul li a {
 }
 
 .home {
-  background-image: url("../image/home.png");
+  background-image: url("/img/home.jpg");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
