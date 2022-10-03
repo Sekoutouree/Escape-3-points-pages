@@ -1,0 +1,134 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best Ecolodge in Ghana">
+    <meta name="keywords"
+        content="Beach Ecolodge, Forest Lodge, Escape 3 Points, Cape 3 Points, Cape Three Points, Ghana, Surfing Ghana">
+    <title>Escape 3 Points Ecolodge</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+
+<body>
+    <section class="head">
+        <div class="container flex1">
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="logo">
+                <img src="img/logo.png" alt="Escape logo">
+            </div>
+            <div class="address">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Next to Trinity Yard School, Cape Three Points 123456 Ghana</span>
+            </div>
+        </div>
+    </section>
+        <header class="header">
+            <div class="container">
+                <nav class="navbar flex1">
+                    <div class="sticky_logo logo">
+                        <img src="img/logo.png" alt="Escape logo">
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="head_contact">
+                        <i class="fas fa-phone-volume"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+            const navMenu = document.querySelector(".nav-menu");
+
+            hamburger.addEventListener ("click", mobilemenu);
+
+            function mobilemenu() {
+                hamburger.classList.toggle("active");
+                navMenu.classList.toggle("active");
+            }
+
+            window.addEventListener("scroll", function() {
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.strollY > 0)
+            })
+        </script>
+
+        <section class="home" id="home">
+            <div class="container">
+                <h1>Make Memories</h1>
+                <p>Discover a paradise where you have fun and relax!</p>
+                <div class="content grid">
+                    <div class="box">
+                        <span>ARRIVAL DATE</span> <br>
+                        <input type="date" placeholder="29/12/2022">
+                    </div>
+                    <div class="box">
+                        <span>DEPARTURE DATE</span> <br>
+                        <input type="date" placeholder="31/12/2022">
+                    </div>
+                    <div class="box">
+                        <span>ADULTS</span> <br>
+                        <input type="date" placeholder="01">
+                    </div>
+                    <div class="box">
+                        <span>CHILDREN</span> <br>
+                        <input type="date" placeholder="01">
+                    </div>
+                    <div class="box">
+                        <button class="flex">
+                            <span>Check Availabilty</span> <br>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="heading">
+                    <h5>EXPLORE</h5>
+                    <H2>We are happy to give you pleasure</H2>
+                </div>
+                <div class="content flex top">
+                    <div class="left">
+                        <h3>Enjoy the comfort of nature</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quas rerum modi fuga, dolore inventore assumenda! Non sunt exercitationem minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptas ipsum iste aspernatur labore deleniti nemo sunt quisquam. Quibusdam adipisci eligendi, facere ipsam esse eius ut consequuntur culpa qui magnam!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quas rerum modi fuga, dolore inventore assumenda! Non sunt exercitationem minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat dolorem saepe est inventore placeat. Molestiae, et quia. Dolorum, quibusdam illo. Libero hic asperiores molestias natus explicabo possimus, repudiandae ipsam culpa.</p>
+                        <button class="flex1">
+                            <span>Check Availability</span>
+                            <i class="fas fa-arrow-circle-right"></i>
+                          </button>
+                        </div>
+                    </div>
+                    
+                    <div class="right">
+                        <img src="img/the-bar.jpg" alt="picture of the bar area">
+                    </div>
+                </div>
+            </div>
+        </section>
+  
+</body>
+
+</html> -->
