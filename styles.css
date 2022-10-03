@@ -357,9 +357,9 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: #317d0b;
-  width: 92%;
-  height: 61vh;
+  background: linear-gradient(to bottom, #314707, #8bb634) ;
+  width: 85%;
+  height: 58vh;
   z-index: -1;
   margin: 50px;
 }
