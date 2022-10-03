@@ -242,8 +242,9 @@ header.sticky ul li a {
 }
 
 .home h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 150px;
+  font-family: s'DINPro-Light';
+  font-weight: normal;
+  font-size: 100px;
   color: white;
   padding-top: 10%;
 }
