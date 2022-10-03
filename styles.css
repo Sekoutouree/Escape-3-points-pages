@@ -243,7 +243,7 @@ header.sticky ul li a {
 
 .home h1 {
   font-family: s'DINPro-Light';
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 100px;
   color: white;
   padding-top: 10%;
@@ -357,7 +357,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: #CC8C18;
+  background: #317d0b;
   width: 92%;
   height: 61vh;
   z-index: -1;
