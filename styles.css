@@ -619,7 +619,8 @@ p {
 .offer .content h4 {
   font-size: 20px;
   color: #627795;
-  font-family: serif;
+  font-family: s'DINPro-Light';
+  font-weight: normal;
 }
 
 .offer .rate i {
@@ -631,6 +632,7 @@ p {
 .offer .content h5 {
   color: #627795;
   margin-bottom: 10px;
+  font-family: s'DINPro-Light';
 }
 
 .offer .box {
