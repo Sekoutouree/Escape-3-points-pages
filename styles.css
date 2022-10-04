@@ -243,14 +243,15 @@ header.sticky ul li a {
 
 .home h1 {
   font-family: s'DINPro-Light';
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 100px;
-  color: white;
+  color: rgb(51, 90, 106);
   padding-top: 10%;
 }
 
 .home p {
-  color: white;
+  color: rgb(51, 90, 106);
+  font-size: 25px;
 }
 
 .home .content {
@@ -358,8 +359,8 @@ p {
   top: 0;
   left: 0;
   background: linear-gradient(to bottom, #314707, #8bb634) ;
-  width: 85%;
-  height: 58vh;
+  width: 680px;
+  height: 520px;
   z-index: -1;
   margin: 50px;
 }
