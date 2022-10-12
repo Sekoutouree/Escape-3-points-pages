@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* border: 5px solid red; */
 }
 
 html,
@@ -1146,4 +1147,14 @@ footer .content {
   .offer2.wrapper {
     height: 170vh;
   }
+}
+
+#activity-heading {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.activity-heading {
+  margin-top: 10em;
+  /* margin-bottom: 0; */
 }
