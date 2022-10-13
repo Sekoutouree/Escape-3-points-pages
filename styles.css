@@ -783,13 +783,13 @@ p {
 }
 
 /*------------customer------------*/
-/*------------gallary------------*/
-.gallary .item {
+/*------------gallery------------*/
+.gallery .item {
   position: relative;
   cursor: pointer;
 }
 
-.gallary .overlay i {
+.gallery .overlay i {
   position: absolute;
   top: 40%;
   left: 40%;
@@ -799,7 +799,7 @@ p {
   color: white;
 }
 
-.gallary .overlay {
+.gallery .overlay {
   position: absolute;
   content: '';
   background: rgba(204, 140, 24, 0.73);
@@ -810,8 +810,8 @@ p {
   opacity: 0;
 }
 
-.gallary .item:hover .overlay,
-.gallary .item:hover i {
+.gallery .item:hover .overlay,
+.gallery .item:hover i {
   opacity: 1;
   transition: 0.5s;
   cursor: pointer;
