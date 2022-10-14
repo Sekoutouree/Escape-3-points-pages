@@ -371,7 +371,7 @@ p {
   position: absolute;
   top: -5%;
   left: 0;
-  background-image: url("../image/line1.png");
+  background-image: url("/img/line1.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50px;
@@ -383,7 +383,7 @@ p {
   position: absolute;
   bottom: -5%;
   left: 0;
-  background-image: url("../image/line2.png");
+  background-image: url("/img/line2.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50px;
@@ -393,7 +393,7 @@ p {
 /*------------about------------*/
 /*------------wrapper------------*/
 .wrapper {
-  background-image: url("../image/w.jpg");
+  background-image: url("/img/Wrapper.jpeg");
   height: 80vh;
   background-attachment: fixed;
   background-position: center;
@@ -506,7 +506,7 @@ p {
   position: absolute;
   top: -22%;
   left: 0;
-  background-image: url("../image/line1.png");
+  background-image: url("/img/line1.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 75px;
@@ -838,8 +838,8 @@ p {
 }
 
 .blog img {
-  width: 100%;
-  height: 100%;
+  width: 350px;
+  height: 250px;
   position: relative;
 }
 
@@ -854,7 +854,7 @@ p {
   left: -12%;
   z-index: 1;
   color: white;
-  background: #CC8C18;
+  background: #3a6eb5;
   padding: 20px 50px;
   transform: rotate(-45deg);
   font-size: 14px;
