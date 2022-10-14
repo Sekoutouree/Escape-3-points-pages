@@ -297,3 +297,28 @@ Escape is a project in constant evolution with physical construction which began
     </div>
   </div>
 </section>
+
+<div class="box">
+  <h2>Quick Links</h2>
+  <ul>
+    <li><i class="fas fa-angle-double-right"></i>Big Data</li>
+    <li><i class="fas fa-angle-double-right"></i>Wellness</li>
+    <li><i class="fas fa-angle-double-right"></i>Spa Gallery</li>
+    <li><i class="fas fa-angle-double-right"></i>Reservation</li>
+    <li><i class="fas fa-angle-double-right"></i>FAQ</li>
+    <li><i class="fas fa-angle-double-right"></i>Contact</li>
+  </ul>
+</div>
+
+<div class="subscribe" id="contact">
+  <h2>Subscribe newsletter</h2>
+  <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+    laborum.</p>
+  <div class="input flex">
+    <input type="email" placeholder="Your Email address">
+    <button class="flex1">
+      <span>Subscribe</span>
+      <i class="fas fa-arrow-circle-right"></i>
+    </button>
+  </div>
+</div>
