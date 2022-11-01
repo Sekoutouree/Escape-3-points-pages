@@ -378,6 +378,18 @@ p {
   width: 100%;
 }
 
+.line::before {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: 0;
+  background-image: url("/img/line1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 100%;
+}
+
 .about::before {
   content: '';
   position: absolute;
@@ -1078,5 +1090,5 @@ footer .content {
 
 .activity-heading {
   margin-top: 10em;
-  /* margin-bottom: 0; */
+  /* margin-bottom: -70px; */
 }
